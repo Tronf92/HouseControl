@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomWindowTitleBarBG">
+    	<item name="android:background">#000000</item>
+    </style>
+   
+    <style name="TitleBarTheme" parent="android:Theme">
+    	<item name="android:windowTitleSize">35dip</item>
+		<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBarBG</item>
+        <item name="android:buttonStyle">@style/button</item>
+    </style>
+    <style name="button" >
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#BA1919</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">18dip</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>
